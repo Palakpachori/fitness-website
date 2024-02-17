@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palak fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS Reset*/
+    body{
+        font-family: 'Ubuntu';
+        color: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/abs-1850926_1280.jpg');
+        
+            }
+            .left{
+                display: inline-block;
+                position: absolute;
+                left: 60px;
+                top:10px;
+
+            }
+            .left img{
+                width: 191px;
+                filter: invert(100%);
+            }
+            .left div{
+            
+                font-size: 15px;
+
+                text-align: center;
+            }
+            .mid{
+                display:block;
+                width: 36%;
+                margin: 36px auto;
+                
+    
+
+            }
+            .right{
+                position: absolute;
+                right: 34px;
+                top: 33px;
+                display:inline-block;
+                border: 0px solid blue;
+
+            }
+            .navbar{
+                display: inline-block;
+            }
+            .navbar li{
+                
+                display: inline-block;
+            
+            }
+            .navbar li a{
+                color: white;
+                text-decoration: none;
+                padding: 15px 15px;
+            }
+            .navbar li a:hover, .navbar li a.active{
+                text-decoration: underline;
+                color: grey;
+
+            }
+            .btn{
+                margin: 9px;
+                color: white;
+                background-color: black;
+                padding: 4px 14px;
+                border: 2px solid grey;
+                border-radius: 10px;
+                font-size: 20px;
+                cursor: pointer;
+                font-family: 'Ubuntu';
+                
+                
+
+
+            }
+            .btn:hover{
+                background-color: rgb(158, 144, 144);
+            }
+            .container{
+                position:relative;
+                float:right;
+        
+
+             border: 1px solid white;
+                margin:64px 80px;
+                padding: 50px;
+                width:30%;
+                border-radius: 5%;
+                
+            }
+            .form-group input{
+                text-align: center;
+                display:block;
+                width:400px;
+                padding:2px;
+                margin:10px auto;
+                border: 2px solid black;
+                font-size: 25px;
+                border-radius: 8px;
+                font-family:"Ubuntu";
+            }
+            .container h1{
+                text-align:center
+            }
+            .container button{
+                display: block;
+                width: 23%;
+                margin:auto;
+            }
+            
+            
+            
+
+            
+</style>
+
+<body>
+
+    <header class="header" >
+        <div class="left">
+
+            <img src="images/istockphoto-1362037458-1024x1024.jpg" alt="">
+            <div>Palak's Fitness</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+        <div class="container">
+            <h1>Join the best gym of a Jabalpur now!</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+<input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="" placeholder="Enter your gender">
+                                                        </div>
+                                                        <button class="btn">Submit</button>
+                
+            </form>
+        </div>
+    
+
+    
+        
+    
+
+    
+</body>
+</html>
